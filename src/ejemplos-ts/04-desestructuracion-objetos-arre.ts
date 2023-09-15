@@ -37,3 +37,13 @@ const{autor}=detalles
 console.log(`El volumen actual es: ${volumen}`);
 console.log(`Los segundos son: ${segundo}`);
 console.log(`El cantante es: ${autor}`);
+
+//Areglo
+const colores:string[]=['blue','red','green','violet'];
+console.log(`Color 1: ${colores[0]}`);
+console.log(`Color 2: ${colores[1]}`);
+console.log(`Color 3: ${colores[2]}`);
+
+//Desestructurar el arreglo []
+const[a,,,b]=colores;
+console.log(`Color 2: ${a}`);
